@@ -1,0 +1,14 @@
+# 💻 Software Requirements
+
+The following software tools and environments are necessary to develop, flash, and monitor the **Eye-Pulse** system:
+
+| Software | Specification | Purpose |
+| :--- | :--- | :--- |
+| **Operating System** | Windows 10/11, macOS, or Linux | Primary development environment for coding and flashing |
+| **Arduino IDE** | Version 2.0 or higher | Main platform for writing and uploading Embedded C firmware |
+| **VS Code** | With Python Extension | Used for running the Streamlit-based IoT dashboard |
+| **Python** | Version 3.9 or higher | Backend language for processing and visualizing real-time data |
+| **Blynk IoT App** | Android or iOS | Mobile interface for remote monitoring and risk alerts |
+| **Web Browser** | Chrome, Edge, or Firefox | To access the cloud-based IoT dashboard and patient records |
+
+> **Note:** Ensure all Python dependencies (Streamlit, Pandas, Plotly) are installed via pip before launching the dashboard application.
