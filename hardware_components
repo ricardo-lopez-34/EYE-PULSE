@@ -1,0 +1,16 @@
+# 🛠️ Bill of Materials (Hardware)
+
+To replicate the **Eye-Pulse** Glaucoma Screening System, the following components are required:
+
+| Component | Specification | Quantity | Purpose |
+| :--- | :--- | :--- | :--- |
+| **Microcontroller** | ESP8266 (NodeMCU) | 1 | [cite_start]Handles sensor data processing and IoT connectivity [cite: 19, 47] |
+| **Ultrasonic Sensor** | HC-SR04 or equivalent | 1 | [cite_start]Generates Acoustic Radiation Force and measures eye deformation [cite: 18, 47] |
+| **Alert System** | 5V Active Buzzer | 1 | [cite_start]Provides audible alerts for high-risk IOP levels [cite: 20, 23] |
+| **Indicators** | LEDs (Red & Green) | 2 | [cite_start]Visual status for "Normal" vs "Risk Detected" results [cite: 23, 38] |
+| **Connectivity** | Wi-Fi Module (Integrated) | 1 | [cite_start]For real-time data transmission to the IoT dashboard [cite: 47] |
+| **Power Source** | 5V DC / Micro-USB | 1 | [cite_start]Provides stable power for the portable device [cite: 17, 23] |
+| **Prototyping** | Breadboard & Jumper Wires | 1 Set | [cite_start]Circuit interconnects and initial prototyping [cite: 23] |
+| **Enclosure** | 3D Printed Housing | 1 | [cite_start]Lightweight, portable structure for rural clinics [cite: 17, 23] |
+
+> **Note:** Ensure the ultrasonic sensor is precisely calibrated within the code to map eye deformation accurately to mmHg (millimeter of mercury) values.
