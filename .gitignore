@@ -1,0 +1,39 @@
+# 🙈 .gitignore
+
+# Firmware / Arduino IDE
+# ----------------------
+# Ignore compiled binaries and temporary build files
+*.hex
+*.elf
+*.bin
+build/
+bin/
+layout/
+
+# Python / IoT Dashboard
+# ----------------------
+# Ignore virtual environments and cache
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Streamlit specific
+.streamlit/config.toml
+.streamlit/static/
+
+# Sensitive Information
+# ---------------------
+# It is highly recommended to move your tokens to a separate .env file
+.env
+secrets.py
+auth_tokens.txt
+
+# Operating System Files
+# ----------------------
+.DS_Store
+Thumbs.db
+desktop.ini
