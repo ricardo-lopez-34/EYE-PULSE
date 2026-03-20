@@ -1,0 +1,18 @@
+# 📚 Required Libraries
+
+To compile and run the **Eye-Pulse** firmware on the ESP8266, ensure you have the following libraries installed in your Arduino IDE:
+
+| Library Name | Source / Manager | Purpose |
+| :--- | :--- | :--- |
+| **Blynk** | Blynk by Volodymyr Shymanskyy | [cite_start]Provides the IoT cloud connectivity and mobile dashboard interface[cite: 19, 47]. |
+| **ESP8266WiFi** | ESP8266 Board Core | [cite_start]Enables Wi-Fi communication and station mode for data transmission[cite: 47]. |
+| **Ticker** | Built-in | Handles internal timing for ultrasonic sampling and non-blocking cloud updates. |
+| **EEPROM** | Built-in | Used for storing local device configurations or calibration offsets. |
+
+### **Installation Guide**
+1. Open **Arduino IDE**.
+2. Navigate to **Sketch** > **Include Library** > **Manage Libraries...**.
+3. Search for **Blynk** and install the latest version.
+4. Ensure you have the **ESP8266 board URL** added in your Preferences to access the hardware-specific libraries.
+
+> **Note:** The **ESP8266WiFi** and **Ticker** libraries are automatically installed when you add the ESP8266 board to your Arduino IDE Boards Manager.
