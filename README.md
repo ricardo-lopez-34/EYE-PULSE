@@ -28,7 +28,3 @@
 * 🏥 **SDG 3 (Good Health and Well-Being)**: Supports early detection of glaucoma and prevents avoidable blindness through affordable IOP screening.
 * 🏗️ **SDG 9 (Industry, Innovation, and Infrastructure)**: Encourages sustainable healthcare innovation through cost-effective technology and scalable IoT infrastructure.
 * 🤝 **SDG 10 (Reduced Inequalities)**: Improves healthcare access in rural and underserved communities, reducing inequalities in eye care.
-
-2. 👤 **Sathvika Avvaru**
-3. 👤 **ND Tendulkar Jay**
-4. 👤 **Ricardo Lopez*
